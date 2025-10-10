@@ -1,0 +1,57 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"PDztE5Xpz4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tracker</span>\",\"col\":12}},{\"id\":\"jkr5vnQaTv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Details\",\"col\":3}},{\"id\":\"BwIahURmU5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Invoice\",\"col\":3}},{\"id\":\"mXZtW0eSo-\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Purchase Invoice\",\"col\":6}},{\"id\":\"XyV4TOtVcK\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Add Expense\",\"col\":12}}]",
+ "creation": "2025-10-09 15:42:17.073904",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Add Expense",
+   "label": "Add Expense"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "unhide",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Tracker",
+ "links": [],
+ "modified": "2025-10-10 15:53:35.196432",
+ "modified_by": "Administrator",
+ "module": "Tracker",
+ "name": "Tracker",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Purchase Invoice",
+   "label": "Purchase Invoice",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Expense Details",
+   "link_to": "Expense Details",
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Purchase Invoice",
+   "link_to": "Purchase Invoice",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Tracker"
+}

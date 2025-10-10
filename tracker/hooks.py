@@ -5,6 +5,21 @@ app_description = "An app to track daily activities"
 app_email = "contact22logic@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "doctype": "Workspace",
+        "filters": {
+            "module": ["in", ["Tracker"]]
+        } 
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": {
+            "module": ["in", ["Tracker"]]
+        }
+    }
+]
+
 # Apps
 # ------------------
 
