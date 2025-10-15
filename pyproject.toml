@@ -9,7 +9,7 @@ readme = "README.md"
 dynamic = ["version"]
 dependencies = [
     # "frappe~=15.0.0" # Installed and managed by bench.
-    "FinancialMaths>=2.13.1",
+    "FinancialMaths>=0.0.1",
 ]
 
 [build-system]
