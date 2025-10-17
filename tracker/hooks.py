@@ -13,9 +13,27 @@ fixtures = [
         } 
     },
     {
+        "doctype": "Custom Field",
+        "filters": {
+            "module": ["in", ["Tracker"]]
+        } 
+    },    
+    {
         "doctype": "Property Setter",
         "filters": {
             "module": ["in", ["Tracker"]]
+        }
+    },
+    {
+        "doctype": "Client Script",
+        "filters": {
+            "module": ["in", ["Tracker"]]
+        }
+    },
+    {
+        "doctype": "Custom HTML Block",
+        "filters": {
+            "name": ["in", "Add Expense"]
         }
     }
 ]

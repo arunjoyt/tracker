@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<a href=\"/app/purchase-invoice/new\" class=\"btn btn-primary\">Add Expense</a>",
+  "modified": "2025-10-10 15:29:00.565404",
+  "name": "Add Expense",
+  "private": 0,
+  "roles": [],
+  "script": "",
+  "style": "h1 {\n    color: blue\n}"
+ }
+]
