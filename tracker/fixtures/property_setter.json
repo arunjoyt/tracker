@@ -46,5 +46,21 @@
   "property_type": "Text",
   "row_name": null,
   "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Purchase Invoice",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "disable_rounded_total",
+  "is_system_generated": 0,
+  "modified": "2025-10-18 15:55:22.036799",
+  "module": "Tracker",
+  "name": "Purchase Invoice-disable_rounded_total-default",
+  "property": "default",
+  "property_type": "Text",
+  "row_name": null,
+  "value": "1"
  }
 ]
