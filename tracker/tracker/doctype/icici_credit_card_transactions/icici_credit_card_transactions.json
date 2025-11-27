@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-11-26 17:17:18.970168",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_date",
+  "details",
+  "amount_inr",
+  "reference_number",
+  "extracted_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Data",
+   "label": "Transaction Date"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Data",
+   "label": "Details"
+  },
+  {
+   "fieldname": "amount_inr",
+   "fieldtype": "Data",
+   "label": "Amount (INR)"
+  },
+  {
+   "fieldname": "reference_number",
+   "fieldtype": "Data",
+   "label": "Reference Number"
+  },
+  {
+   "fieldname": "extracted_to",
+   "fieldtype": "Link",
+   "label": "Extracted To",
+   "options": "Money Transactions"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-27 10:08:41.781439",
+ "modified_by": "Administrator",
+ "module": "Tracker",
+ "name": "ICICI Credit Card Transactions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
